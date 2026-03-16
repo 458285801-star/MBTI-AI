@@ -39,4 +39,4 @@ demo = gr.Interface(
     description="输入MBTI类型和问题，AI会根据人格为你分析"
 )
 
-demo.launch()
+demo.launch(server_name="0.0.0.0", server_port=8080)
