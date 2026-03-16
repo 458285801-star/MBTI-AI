@@ -2,7 +2,7 @@ import gradio as gr
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="你的DeepSeek_API_KEY",
+    api_key="sk-c2a0b0a3b5aa4e1cb9a0a1dc0d76bea6",
     base_url="https://api.deepseek.com"
 )
 
